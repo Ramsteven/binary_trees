@@ -1,6 +1,6 @@
 #include "binary_trees.h"
- /**
- * binary_tree_leaves -function that measures
+/**
+ * binary_tree_leaves - function that measures
  * the depth of a tree in a binary tree
  * @tree:  to the root tree of the
  * tree to count the number of leaves
