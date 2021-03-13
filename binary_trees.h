@@ -23,6 +23,9 @@ struct binary_tree_s
 
 typedef struct binary_tree_s binary_tree_t;
 
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+				     const binary_tree_t *second);
 void replace_left(binary_tree_t *parent, binary_tree_t *node);
 void replace_right(binary_tree_t *parent, binary_tree_t *node);
 int calc_diff(const binary_tree_t *tree, const binary_tree_t *root, int diff);
